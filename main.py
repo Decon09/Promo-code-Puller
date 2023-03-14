@@ -1,8 +1,8 @@
 import xboxlivepy,requests
 
 
-def get_auth():
-    xbox_auth  = xboxlivepy.XboxLiveAuth ( 'email' ,  'password' )
+def get_auth(email,pass):
+    xbox_auth  = xboxlivepy.XboxLiveAuth (email ,  password)
     return xbox_auth
 
 def pull_code(email, passw):
